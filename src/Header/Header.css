@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+
+.header{
+    display:flexbox;
+
+    align-items: center;
+    align-content: flex-end;
+    color: rgb(232, 240, 240);
+    background-color: black;
+    top: 0%;
+    justify-content: flex-start;
+    position: sticky;
+    z-index: 2000;
+    
+
+}
+
+
+

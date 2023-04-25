@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base style */
+* {
+    font-family: "Quicksand";
+
+}
+
+.App {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+
+}
+
+
+#quote-box {
+    display:flexbox;
+    width: 60vw;
+    height: 60vh;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    
+
+
+    justify-content: space-evenly;
+   
+}
+
+/* quote  */
+.quote {
+    display: flex;
+    width: 50vw;
+    height: 40vh;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+
+#text {
+    width: 50vw;
+    height: 20vh;
+    font-size: 2rem;
+}
+
+#author {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+/* button and twitter */
+.navbar {
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    justify-content: space-between;
+}
+/* twitter */
+/* button */
+#new-quote {
+    font-size: 1.5rem;
+    padding: 0.7rem;
+    border-radius: 12px;
+}
+#new-quote:hover {
+    cursor: pointer;
+}
